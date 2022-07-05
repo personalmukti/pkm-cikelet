@@ -35,12 +35,32 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url(); ?>backendcontrol">
                     <i class="fas fa-fw fa-user-md"></i>
-                    <span>Kelola Layanan</span></a>
+                    <span>Kelola Tenaga Medis</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url(); ?>backendcontrol">
                     <i class="fas fa-fw fa-images"></i>
-                    <span>Kelola Galeri</span></a>
+                    <span>Kelola Penghargaan</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Manajemen Akun
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url(); ?>profile">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>Profil</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url(); ?>logout">
+                    <i class="fas fa-fw fa-arrow-circle-left"></i>
+                    <span>Logout</span></a>
             </li>
 
         </ul>

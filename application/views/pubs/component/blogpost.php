@@ -14,6 +14,7 @@
             <section class="blog-section spad">
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="container">
                         <?php
                             function limit_words($string, $word_limit){
                                 $words = explode(" ",$string);
@@ -25,27 +26,32 @@
                                 $image=$i['berita_image'];
                                 $isi=$i['berita_isi'];
                                 $tgl=$i['berita_tanggal'];
+                                $poster=$i['poster'];
                         ?>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-4 col-md-6">
                             <div class="single-blog-item blog-item">
-                                <div class="blog-img">
+                                <div>
                                     <img src="<?php echo base_url().'assets/images/'.$image;?>" alt="<?php echo $judul;?>">
                                 </div>
-                                <div class="blog-text">
+                                <div class="blog-text" style="margin: 25px !important;">
                                     <span class="blog-time"><?php echo $tgl;?></span>
                                     <h3><?php echo $judul;?></h3>
-                                    <p><?php echo limit_words($isi,30);?><a href="<?php echo base_url().'frontyard/detailnews/'.$id;?>"> Selengkapnya </a></p>
-                                    <hr>
-                                    <h6>Posted by : Admin</h6>
+                                    <div class="text-justify"><p><?php echo limit_words($isi,30);?>
+                                    <br><a href="<?php echo base_url().'publichub/detailnews/'.$id;?>" class="btn btn-info btn-xs"> Selengkapnya </a></p>
+                                    </div><hr>
+                                    <div class="text-center"><h6>Posted by : <?php echo $poster;?></h6></div>
                                 </div>
                             </div>
                         </div>
                         <?php endforeach;?>
+                        </div>
 
                     </div>
                 </div>
             </section>
             <!-- Blog Section End -->
+            <br>
+
         </div>
     </section>
     <!-- blog end -->
