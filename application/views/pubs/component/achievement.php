@@ -34,8 +34,8 @@
                                         <div class="gallery-btn">
                                             <a href="<?php echo base_url() ?>assets/medicative/img/achievement/penghargaanbupati.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
                                         </div>
-                                        <p><a href="#">Piagam Penghargaan Pemerintah Kabupaten Garut dengan ini Memberikan Penghargaan atas
-                                        Evaluasi Pelayanan Publik Tahun 2018</a></p>
+                                        <p>Piagam Penghargaan Pemerintah Kabupaten Garut dengan ini Memberikan Penghargaan atas
+                                        Evaluasi Pelayanan Publik Tahun 2018</p>
                                     </div>
                                 </div>
                             </div>

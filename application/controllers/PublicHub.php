@@ -147,6 +147,7 @@ class PublicHub extends CI_Controller {
 
 	public function detailnews($id)
 	{
+		$data['title'] = 'Detail Artikel || PKM Cikelet';
 		$data['berita'] = $this->M_berita->readone($id);
 
 		$this->template->load('pubs/layout/template', 'pubs/component/blogdetail', $data);
