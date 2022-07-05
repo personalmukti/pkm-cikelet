@@ -11,6 +11,10 @@ class BackendControl extends CI_Controller {
 		//Do your magic here
 		$this->load->model('M_berita');
 		$this->load->library('upload');
+
+		if ($this->session->userdata('status')!='login'){
+			redirect('sign-in');
+		}
 	}
 
 	public function index()

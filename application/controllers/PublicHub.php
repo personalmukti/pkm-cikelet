@@ -145,6 +145,14 @@ class PublicHub extends CI_Controller {
 		$this->template->load('pubs/layout/template', 'pubs/component/blogpost', $data);
 	}
 
+	public function detailnews($id)
+	{
+		$data['berita'] = $this->M_berita->readone($id);
+
+		$this->template->load('pubs/layout/template', 'pubs/component/blogdetail', $data);
+		
+	}
+
 	public function kontak()
 	{
 		$data['title'] = 'Hubungi Kami || PKM Cikelet';

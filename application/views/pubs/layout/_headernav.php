@@ -22,7 +22,6 @@
                 <div class="col-md-12">
                     <nav class="navbar navbar-default">
                         <div class="navbar-header">
-                            <img class="imgheader" src="<?php echo base_url(); ?>assets/medicative/img/logopuskesmas.png" width="10%" height="10%">
                             <a class="navbar-brand" href="<?php echo base_url(); ?>"><h3>PKM Cikelet</h3>
                                 </a>
                         </div>
@@ -86,21 +85,7 @@
                                     <a href="<?php echo base_url(); ?>hubungi-kami"><span data-hover="Contact">Kontak</span></a>
                                 </li>
                                 <li>
-                                    <div class="dropdown-buttons">
-                                        <div class="btn-group menu-search-box">
-                                            <button type="button" class="btn dropdown-toggle" id="header-drop-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon icon-Search"></i></button>
-                                            <ul class="dropdown-menu dropdown-menu-right dropdown-animation" aria-labelledby="header-drop-3">
-                                                <li>
-                                                    <form role="search" class="search-box">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Search">
-                                                            <i class="icon icon-Search form-control-feedback"></i>
-                                                        </div>
-                                                    </form>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <a href="<?php echo base_url(); ?>sign-in" class="btn btn-sm"><i class="fa fa-lock" aria-hidden="true"></i> Login</a>
                                 </li>
                             </ul>
                         </div>

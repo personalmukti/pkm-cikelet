@@ -86,7 +86,12 @@ $route['artikel'] = 'PublicHub/getblog';
 // Public menu 5 Routing
 $route['hubungi-kami'] = 'PublicHub/kontak';
 
+// Auth Routing
+$route['sign-in'] = 'AuthControl/index';
+$route['logout'] = 'AuthControl/logout';
+
 // Backend Routing
+$route['admin'] = 'BackendControl';
 $route['post-berita'] = 'BackendControl/postberita';
 
 
