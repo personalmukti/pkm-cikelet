@@ -6,3 +6,13 @@
 
     <!-- Custom styles for this template-->
     <link href="<?php echo base_url(); ?>assets/admin/css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Datatables -->
+    <link href="<?php echo base_url(); ?>assets/admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+    <style>
+        .imgtable {
+            width: 200px !important;
+            height: 200px !important;
+        }
+    </style>
