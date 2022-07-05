@@ -18,6 +18,13 @@ class M_berita extends CI_Model{
 		return $hsl;
 	}
 
+	function get_all(){
+		$this->db->order_by('berita_id', 'desc');
+
+		$hsl = $this->db->get('tbl_berita');
+		return $hsl;
+	}
+
 	function readnews(){
 		$hsl = $this->db->get('tbl_berita');
 
@@ -29,5 +36,15 @@ class M_berita extends CI_Model{
 		$result = $this->db->get('tbl_berita');
 
 		return $result;
+	}
+
+	function remove($id)
+	{
+		$berita_id = $id;
+
+		$this->db->where('berita_id', $berita_id);
+
+		$this->db->where('berita_id', $berita_id);
+		$this->db->delete('tbl_berita');
 	}
 }

@@ -17,6 +17,7 @@
             <div class="section-content">
                 <div class="row">
                     <div class="team-carousel">
+                        <!-- Loop data tendis di sini -->
                         <div class="item">
                             <div class="team-item-2">
                                 <img src="<?php echo base_url(); ?>assets/medicative/img/personil/hendi.jpg" width="380" height="300" alt="">
@@ -43,7 +44,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <!-- End Loop -->
+
+                        <!-- <div class="item">
                             <div class="team-item-2">
                                 <img src="<?php echo base_url(); ?>assets/medicative/img/personil/asepdani.jpg" width="380" height="300" alt="">
                                 <div class="team-content">
@@ -68,7 +71,7 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

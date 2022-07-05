@@ -69,6 +69,31 @@ class BackendControl extends CI_Controller {
 		}	
 	}
 
+	function fetchnews()
+	{
+		$data['title'] = 'Semua Berita || Admin PKM Cikelet';
+
+		$data['berita'] = $this->M_berita->get_all();
+
+		$this->template->load('back/layout/template', 'back/tberita', $data);
+	}
+
+	function delete($id)
+	{
+		$query = $this->db->query('select berita_image from tbl_berita where berita_id='.$id);
+
+		foreach ($query->result() as $row)
+			{
+					$imgname = $row->berita_image;
+			}
+
+		$target = './assets/images/'.$imgname;
+		unlink($target);
+
+		$this->M_berita->remove($id);
+		redirect('data-berita');
+	}
+
 }
 
 /* End of file BackendControl.php */

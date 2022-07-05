@@ -84,9 +84,9 @@
                                 <li class="dropdown">
                                     <a href="<?php echo base_url(); ?>hubungi-kami"><span data-hover="Contact">Kontak</span></a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="<?php echo base_url(); ?>sign-in" class="btn btn-sm"><i class="fa fa-lock" aria-hidden="true"></i> Login</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </nav>

@@ -93,6 +93,7 @@ $route['logout'] = 'AuthControl/logout';
 // Backend Routing
 $route['admin'] = 'BackendControl';
 $route['post-berita'] = 'BackendControl/postberita';
+$route['data-berita'] = 'BackendControl/fetchnews';
 
 
 $route['404_override'] = '';
