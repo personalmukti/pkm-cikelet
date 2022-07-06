@@ -1,4 +1,4 @@
-	<!-- Footer Style start -->
+	<!-- Footer Style start --><br>
     <footer class="bg-faded">
         <div class="container">
             <div class="section-content">

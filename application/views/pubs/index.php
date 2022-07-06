@@ -224,10 +224,10 @@
                                 <div class="blog-img">
                                     <img src="<?php echo base_url().'assets/images/'.$image;?>" alt="<?php echo $judul;?>">
                                 </div>
-                                <div class="blog-text">
+                                <div class="blog-text text-justify" style="margin: 25px !important;">
                                     <span class="blog-time"><?php echo $tgl;?></span>
                                     <h3><?php echo $judul;?></h3>
-                                    <p><?php echo limit_words($isi,30);?><a class="btn btn-theme btn-sm" href="<?php echo base_url().'frontyard/detailnews/'.$id;?>"> Selengkapnya </a></p>
+                                    <p><?php echo limit_words($isi,15);?><a class="btn btn-theme btn-sm" href="<?php echo base_url().'frontyard/detailnews/'.$id;?>"> Selengkapnya </a></p>
                                     <hr>
                                     <h6>Posted by : Admin</h6>
                                 </div>
@@ -237,7 +237,7 @@
 
                     </div>
                 </div>
-            </section>
+            </section> <br>
             <!-- Blog Section End -->
         </div>
     </section>

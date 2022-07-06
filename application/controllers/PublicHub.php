@@ -168,13 +168,6 @@ class PublicHub extends CI_Controller {
 		$this->template->load('pubs/layout/template', 'pubs/component/organisasi', $data);
 	}
 
-	public function getdokter()
-	{
-		$data['title'] = 'Tenaga Medis || PKM Cikelet';
-
-		$this->template->load('pubs/layout/template', 'pubs/component/tendis', $data);
-	}
-
 	public function profil()
 	{
 		$data['title'] = 'Profil Penyelenggara || PKM Cikelet';

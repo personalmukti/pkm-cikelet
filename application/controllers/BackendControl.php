@@ -11,6 +11,8 @@ class BackendControl extends CI_Controller {
 		//Do your magic here
 		$this->load->model('M_berita');
 		$this->load->library('upload');
+		$this->load->model('Tendis_model');
+		
 
 		if ($this->session->userdata('status')!='login'){
 			redirect('sign-in');
@@ -92,6 +94,15 @@ class BackendControl extends CI_Controller {
 
 		$this->M_berita->remove($id);
 		redirect('data-berita');
+	}
+
+	function managetendis()
+	{
+		$data['title'] = 'Tenaga Medis || Admin PKM Cikelet';
+
+		$data['tendis'] = $this->Tendis_model->getDokter();
+
+		$this->template->load('back/layout/template', 'back/ttendis', $data);
 	}
 
 }

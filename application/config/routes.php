@@ -78,7 +78,7 @@ $route['ugd-poned-inap-rujukan'] = 'PublicHub/ugd';
 
 
 // Public menu 3 Routing
-$route['tenaga-medis'] = 'PublicHub/getdokter';
+$route['tenaga-medis'] = 'Tendis';
 
 // Public menu 4 Routing
 $route['artikel'] = 'PublicHub/getblog';
@@ -94,6 +94,7 @@ $route['logout'] = 'AuthControl/logout';
 $route['admin'] = 'BackendControl';
 $route['post-berita'] = 'BackendControl/postberita';
 $route['data-berita'] = 'BackendControl/fetchnews';
+$route['kelola-tendis'] = 'BackendControl/managetendis';
 
 
 $route['404_override'] = '';
