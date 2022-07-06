@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -95,6 +95,7 @@ $route['admin'] = 'BackendControl';
 $route['post-berita'] = 'BackendControl/postberita';
 $route['data-berita'] = 'BackendControl/fetchnews';
 $route['kelola-tendis'] = 'BackendControl/managetendis';
+$route['profil'] = 'BackendControl/profilepage';
 
 
 $route['404_override'] = '';
