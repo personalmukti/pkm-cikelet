@@ -22,7 +22,7 @@
                 <div class="col-md-12">
                     <nav class="navbar navbar-default">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="<?php echo base_url(); ?>"><h3>PKM Cikelet</h3>
+                            <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?= base_url('assets/medicative/img/cikelet.png'); ?>" alt="Puskesmas Cikelet" style="height: 45px !important;">
                                 </a>
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown" data-animations-delay="1.8s" data-animations="fadeInUp">
