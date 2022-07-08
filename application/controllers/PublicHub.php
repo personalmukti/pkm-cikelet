@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class PublicHub extends CI_Controller {
+class PublicHub extends CI_Controller
+{
 
 	public function __construct()
 	{
@@ -145,15 +146,6 @@ class PublicHub extends CI_Controller {
 		$this->template->load('pubs/layout/template', 'pubs/component/blogpost', $data);
 	}
 
-	public function detailnews($id)
-	{
-		$data['title'] = 'Detail Artikel || PKM Cikelet';
-		$data['berita'] = $this->M_berita->readone($id);
-
-		$this->template->load('pubs/layout/template', 'pubs/component/blogdetail', $data);
-		
-	}
-
 	public function kontak()
 	{
 		$data['title'] = 'Hubungi Kami || PKM Cikelet';
@@ -195,7 +187,6 @@ class PublicHub extends CI_Controller {
 
 		$this->template->load('pubs/layout/template', 'pubs/component/inovasi', $data);
 	}
-
 }
 
 /* End of file Public.php */

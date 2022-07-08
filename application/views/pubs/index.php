@@ -1,12 +1,12 @@
     <!-- Start  bootstrap-touch-slider Slider -->
-    <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+    <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
 
         <!-- Wrapper For Slides -->
         <div class="carousel-inner" role="listbox">
             <!-- Third Slide -->
             <div class="item active">
                 <!-- Slide Background -->
-                <img src="<?php echo base_url(); ?>assets/medicative/img/bg/3.jpg" alt="Slider Images"  class="slide-image"/>
+                <img src="<?php echo base_url(); ?>assets/medicative/img/bg/3.jpg" alt="Slider Images" class="slide-image" />
                 <div class="bs-slider-overlay"></div>
 
                 <div class="slide-text slide_style_left">
@@ -19,7 +19,7 @@
             <!-- Second Slide -->
             <div class="item">
                 <!-- Slide Background -->
-                <img src="<?php echo base_url(); ?>assets/medicative/img/bg/2.jpg" alt="Slider Images" class="slide-image"/>
+                <img src="<?php echo base_url(); ?>assets/medicative/img/bg/2.jpg" alt="Slider Images" class="slide-image" />
                 <div class="bs-slider-overlay"></div>
                 <!-- Slide Text Layer -->
                 <div class="slide-text slide_style_center">
@@ -32,7 +32,7 @@
             <!-- Third Slide -->
             <div class="item">
                 <!-- Slide Background -->
-                <img src="<?php echo base_url(); ?>assets/medicative/img/bg/1.jpg" alt="Slider Images"  class="slide-image"/>
+                <img src="<?php echo base_url(); ?>assets/medicative/img/bg/1.jpg" alt="Slider Images" class="slide-image" />
                 <div class="bs-slider-overlay"></div>
                 <!-- Slide Text Layer -->
                 <div class="slide-text slide_style_right">
@@ -116,7 +116,7 @@
                             <span class="fa fa-stethoscope"></span>
                             <h4><a href="#">Pelayanan Umum</a></h4>
                             <div class="border-center"></div>
-                            <p>  Menyediakan pelayanan kesehatan berupa pemeriksaan kesehatan umum.</p>
+                            <p> Menyediakan pelayanan kesehatan berupa pemeriksaan kesehatan umum.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -124,7 +124,7 @@
                             <span class="fa fa-ambulance"></span>
                             <h4><a href="#">Unit Gawat Darurat</a></h4>
                             <div class="border-center"></div>
-                            <p>  Menyediakan pelayanan penanganan cepat untuk keadaan kritis.</p>
+                            <p> Menyediakan pelayanan penanganan cepat untuk keadaan kritis.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -132,7 +132,7 @@
                             <span class="fa fa-users"></span>
                             <h4><a href="#">Pelayanan Lansia</a></h4>
                             <div class="border-center"></div>
-                            <p>  Menyediakan pelayanan khusus bagi masyarakat lanjut usia.</p>
+                            <p> Menyediakan pelayanan khusus bagi masyarakat lanjut usia.</p>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
     </section>
     <!-- service end -->
 
-   <!-- divider start -->
+    <!-- divider start -->
     <section class="service-area over-layer-default" style="background-image:url(img/bg/5.jpg);">
         <div class="container padding-bottom-none padding-top-40">
             <div class="section-content">
@@ -182,7 +182,7 @@
                             <div class="content">
                                 <h5><a href="#">Kunjungi Kami</a></h5>
                                 <p>Jln. Raya Cikelet No Telp (0262) 521508 <br>
-                                Kode Pos 44177–Garut </p>
+                                    Kode Pos 44177–Garut </p>
                             </div>
                         </div>
                     </div>
@@ -208,32 +208,33 @@
                 <div class="container-fluid">
                     <div class="row">
                         <?php
-                            function limit_words($string, $word_limit){
-                                $words = explode(" ",$string);
-                                return implode(" ",array_splice($words,0,$word_limit));
-                            }
-                            foreach ($allnews->result_array() as $i) :
-                                $id=$i['berita_id'];
-                                $judul=$i['berita_judul'];
-                                $image=$i['berita_image'];
-                                $isi=$i['berita_isi'];
-                                $tgl=$i['berita_tanggal'];
+                        function limit_words($string, $word_limit)
+                        {
+                            $words = explode(" ", $string);
+                            return implode(" ", array_splice($words, 0, $word_limit));
+                        }
+                        foreach ($allnews->result_array() as $i) :
+                            $id = $i['berita_id'];
+                            $judul = $i['berita_judul'];
+                            $image = $i['berita_image'];
+                            $isi = $i['berita_isi'];
+                            $tgl = $i['berita_tanggal'];
                         ?>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="single-blog-item blog-item">
-                                <div class="blog-img">
-                                    <img src="<?php echo base_url().'assets/images/'.$image;?>" alt="<?php echo $judul;?>">
-                                </div>
-                                <div class="blog-text text-justify" style="margin: 25px !important;">
-                                    <span class="blog-time"><?php echo $tgl;?></span>
-                                    <h3><?php echo $judul;?></h3>
-                                    <p><?php echo limit_words($isi,15);?><a class="btn btn-theme btn-sm" href="<?php echo base_url().'frontyard/detailnews/'.$id;?>"> Selengkapnya </a></p>
-                                    <hr>
-                                    <h6>Posted by : Admin</h6>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="single-blog-item blog-item">
+                                    <div class="blog-img">
+                                        <img src="<?php echo base_url() . 'assets/images/' . $image; ?>" alt="<?php echo $judul; ?>">
+                                    </div>
+                                    <div class="blog-text text-justify" style="margin: 25px !important;">
+                                        <span class="blog-time"><?php echo $tgl; ?></span>
+                                        <h3><?php echo $judul; ?></h3>
+                                        <p><?php echo limit_words($isi, 15); ?><a class="btn btn-theme btn-sm" href="<?php echo base_url() . 'NewsHub/detailnews/' . $id; ?>"> Selengkapnya </a></p>
+                                        <hr>
+                                        <h6>Posted by : Admin</h6>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <?php endforeach;?>
+                        <?php endforeach; ?>
 
                     </div>
                 </div>

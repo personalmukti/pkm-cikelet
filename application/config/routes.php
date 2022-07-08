@@ -81,7 +81,7 @@ $route['ugd-poned-inap-rujukan'] = 'PublicHub/ugd';
 $route['tenaga-medis'] = 'Tendis';
 
 // Public menu 4 Routing
-$route['artikel'] = 'PublicHub/getblog';
+$route['artikel'] = 'NewsHub/getblog';
 
 // Public menu 5 Routing
 $route['hubungi-kami'] = 'PublicHub/kontak';
