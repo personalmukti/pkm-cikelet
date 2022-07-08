@@ -53,8 +53,7 @@
                                                 <td><?= $i['tendis_nama']; ?></td>
                                                 <td><?= $i['tendis_jabatan']; ?></td>
                                                 <td class="text-center">
-                                                    <a class="btn btn-success btn-xs"><i class="fa fa-book" aria-hidden="true"></i></a>
-                                                    <a class="btn btn-warning btn-xs"><i class="fa fa-edit" aria-hidden="true"></i></a>
+                                                    <a class="btn btn-warning btn-xs" href="<?= base_url('backendcontrol/ermtendis/' . $i['id']) ?>"><i class="fa fa-edit" aria-hidden="true"></i></a>
                                                     <a class="btn btn-danger btn-xs" href="<?= base_url('backendcontrol/rmtendis/' . $i['id']) ?>"><i class="fa fa-eraser" aria-hidden="true"></i></a>
                                                 </td>
                                             </tr>
@@ -83,7 +82,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form action="<?= base_url(); ?>BackendControl/newtendis" method="POST" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label for="nama">Nama Lengkap</label>
                                 <input type="text" class="form-control" id="nama" name="nama" aria-describedby="namaHelp" placeholder="Nama Lengkap">
@@ -96,12 +95,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="foto">Foto Profil</label>
-                                <input type="file" class="form-control-file" id="foto">
+                                <input type="file" class="form-control-file" id="foto" name="foto">
                             </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Simpan</button>
+                        <button type="submit" class="btn btn-primary">Simpan</button>
                     </div>
                     </form>
                 </div>

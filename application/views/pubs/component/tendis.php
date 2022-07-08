@@ -30,33 +30,6 @@
                         </div>
                         <?php endforeach ?>
                         <!-- End Loop -->
-
-                        <!-- <div class="item">
-                            <div class="team-item-2">
-                                <img src="<?php echo base_url(); ?>assets/medicative/img/personil/asepdani.jpg" width="380" height="300" alt="">
-                                <div class="team-content">
-                                    <h5><a href="#">Dr. Asep Dani</a></h5>
-                                    <h6>Dokter</h6>
-                                </div>
-                                <div class="timetable">
-                                    <div class="item">
-                                        <div class="label">Senin-Jumat</div>
-                                        <div class="value">08:00 - 17:00</div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="label">Sabtu</div>
-                                        <div class="value">10:00 - 16:00</div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="label">Minggu</div>
-                                        <div class="value">12:00 - 14:00</div>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
