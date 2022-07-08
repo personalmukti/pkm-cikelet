@@ -7,10 +7,10 @@ class Authentication_model extends CI_Model
 		return $this->db->get_where($table,$where);
 	}
     
-    public function regist($data)
-    {
-        $this->db->insert('admin',$data);
-    }                        
+    //public function regist($data)
+    //{
+    //    $this->db->insert('admin',$data);
+    //}                        
                         
 }
 
