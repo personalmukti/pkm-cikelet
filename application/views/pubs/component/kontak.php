@@ -40,7 +40,7 @@
             </div>
         </div>
     </section>
-    
+
     <section>
         <div class="container">
             <div class="section-content">
@@ -56,7 +56,7 @@
                                 <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama lengkap anda..." required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="email" id="email" class="form-control" placeholder="Email anda..."  required>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email anda..." required>
                             </div>
                             <div class="col-md-12">
                                 <input type="text" name="subjek" class="form-control" placeholder="Subjek..." id="subjek" required>

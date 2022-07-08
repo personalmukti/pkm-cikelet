@@ -11,7 +11,7 @@
         </div>
     </section>
 
-     <!-- portfolio start -->
+    <!-- portfolio start -->
     <section class="gallery-area">
         <div class="container">
             <div class="section-content">
@@ -32,10 +32,10 @@
                                 <div class="gallery-hover">
                                     <div class="gallery-info">
                                         <div class="gallery-btn">
-                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/penghargaanbupati.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
+                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/penghargaanbupati.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i> </a>
                                         </div>
                                         <p>Piagam Penghargaan Pemerintah Kabupaten Garut dengan ini Memberikan Penghargaan atas
-                                        Evaluasi Pelayanan Publik Tahun 2018</p>
+                                            Evaluasi Pelayanan Publik Tahun 2018</p>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                 <div class="gallery-hover">
                                     <div class="gallery-info">
                                         <div class="gallery-btn">
-                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatlembaga.png" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
+                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatlembaga.png" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i> </a>
                                         </div>
                                         <p><a href="#">Sertifikat Akreditasi dari Kementrian RI Sertifikat ini diberikan sebagai pengakuan bahwa Fasilitas Tingkat pertama telah memenuhi standar akreditasi dan dinyatak Terakreditasi</a></p>
                                     </div>
@@ -59,10 +59,10 @@
                                 <div class="gallery-hover">
                                     <div class="gallery-info">
                                         <div class="gallery-btn">
-                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatbpjs.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
+                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatbpjs.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i> </a>
                                         </div>
                                         <p><a href="#">Sartifikat dari BPJS Kesehatan berpartisipasi dalam memberikan informasi dan mengedukasi masyarakat tentang protokol kesehatan
-                                        yang dijalankan guna mencegah penyebaran covid-19</a></p>
+                                                yang dijalankan guna mencegah penyebaran covid-19</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                                 <div class="gallery-hover">
                                     <div class="gallery-info">
                                         <div class="gallery-btn">
-                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatapresiasi.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
+                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatapresiasi.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i> </a>
                                         </div>
                                         <h4><a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatapresiasi.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view">Your title here</a></h4>
                                         <p><a href="#">Sartifikat Apresiasi</a></p>
@@ -82,39 +82,39 @@
                             </div>
                         </div>
                         <div class="gallery-item gp-three">
-                                                    <div class="penghargaanimg">
-                                                        <img class="penghargaanimg" src="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatpegawai.jpg" alt="">
-                                                        <div class="gallery-hover">
-                                                            <div class="gallery-info">
-                                                                <div class="gallery-btn">
-                                                                    <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatpegawai.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
-                                                                </div>
-                                                                <h4><a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatpegawai2.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view">Sertifikat Pegawai Berprstasi di Puskesmas Cikelet</a></h4>
-                                                                <p><a href="#">Sub Title here</a></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                            <div class="penghargaanimg">
+                                <img class="penghargaanimg" src="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatpegawai.jpg" alt="">
+                                <div class="gallery-hover">
+                                    <div class="gallery-info">
+                                        <div class="gallery-btn">
+                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatpegawai.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i> </a>
+                                        </div>
+                                        <h4><a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatpegawai2.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view">Sertifikat Pegawai Berprstasi di Puskesmas Cikelet</a></h4>
+                                        <p><a href="#">Sub Title here</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="gallery-item gp-three">
-                                                    <div class="penghargaanimg">
-                                                        <img class="penghargaanimg" src="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatuniga.jpg" alt="">
-                                                        <div class="gallery-hover">
-                                                            <div class="gallery-info">
-                                                                <div class="gallery-btn">
-                                                                    <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatuniga.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
-                                                                </div>
-                                                                <p><a href="#">Sartifikat Ucapan Terimakasih Atas Kerjasama dalam program KKN Tematik Universitas Garut</a></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                            <div class="penghargaanimg">
+                                <img class="penghargaanimg" src="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatuniga.jpg" alt="">
+                                <div class="gallery-hover">
+                                    <div class="gallery-info">
+                                        <div class="gallery-btn">
+                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/sertifikatuniga.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i> </a>
+                                        </div>
+                                        <p><a href="#">Sartifikat Ucapan Terimakasih Atas Kerjasama dalam program KKN Tematik Universitas Garut</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="gallery-item gp-four">
                             <div class="penghargaanimg">
                                 <img class="penghargaanimg" src="<?php echo base_url() ?>assets/medicative/img/achievement/ijinklinik.jpg" alt="">
                                 <div class="gallery-hover">
                                     <div class="gallery-info">
                                         <div class="gallery-btn">
-                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/ijinklinik.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i>  </a>
+                                            <a href="<?php echo base_url() ?>assets/medicative/img/achievement/ijinklinik.jpg" data-fancybox-group="gallery" class="lightbox-image" title="lightbox view"> <i class="fa fa-file-photo-o"></i> </a>
                                         </div>
                                         <p><a href="#">Surat Ijin Klinik Dari Dinas Kesehatan Kabupaten Garut</a></p>
                                     </div>

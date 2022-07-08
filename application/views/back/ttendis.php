@@ -53,8 +53,8 @@
                                                 <td><?= $i['tendis_nama']; ?></td>
                                                 <td><?= $i['tendis_jabatan']; ?></td>
                                                 <td class="text-center">
-                                                    <a class="btn btn-warning btn-xs" href="<?= base_url('backendcontrol/ermtendis/' . $i['id']) ?>"><i class="fa fa-edit" aria-hidden="true"></i></a>
-                                                    <a class="btn btn-danger btn-xs" href="<?= base_url('backendcontrol/rmtendis/' . $i['id']) ?>"><i class="fa fa-eraser" aria-hidden="true"></i></a>
+                                                    <a class="btn btn-warning btn-xs" href="<?= base_url('BackendControl/ermtendis/' . $i['id']) ?>"><i class="fa fa-edit" aria-hidden="true"></i></a>
+                                                    <a class="btn btn-danger btn-xs" href="<?= base_url('BackendControl/rmtendis/' . $i['id']) ?>"><i class="fa fa-eraser" aria-hidden="true"></i></a>
                                                 </td>
                                             </tr>
                                         <?php $no++;
